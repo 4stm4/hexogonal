@@ -1,0 +1,267 @@
+.DDD {
+    left: 470.4px;
+    height: 388px;
+    bottom: 235px;
+    border: 0px;
+    border-radius: 50%;
+}
+
+.DDD:hover {
+    fill: #ac5949;
+}
+
+.appservices {
+    left: 441px;
+    height: 567px;
+    bottom: 207px;
+}
+
+.appservices:hover {
+    fill: #b1ad50;
+}
+
+.queuemessagebus {
+    left: 702px;
+    height: 102px;
+    bottom: 515px;
+}
+
+.queuemessagebus:hover {
+    fill: #5e86a9;
+}
+
+.component {
+    left: 548px;
+    height: 207px;
+    bottom: 229px;
+}
+
+.component:hover path {
+    fill: #9f9579;
+    fill-opacity: 1;
+}
+
+.commandqueuebus {
+    left: 335px;
+    height: 1150px;
+    bottom: 99px;
+}
+
+.commandqueuebus:hover path {
+    fill: #947ad6;
+    fill-opacity: 1;
+}
+
+
+.eventbus {
+    left: 547px;
+    height: 1150px;
+    bottom: 99px;
+}
+
+.eventbus:hover path{
+    fill: #9b4873;
+}
+
+.ormdb {
+    left: 844px;
+    height: 301px;
+    bottom: 56px;
+    transition: box-shadow 0.3s ease;
+    /* Плавный переход для тени */
+}
+
+.ormdb:hover path {
+    fill: #5e86a9;
+}
+
+.searchengine {
+    left: 844px;
+    height: 171px;
+    bottom: 196px;
+    transition: box-shadow 0.3s ease;
+    /* Плавный переход для тени */
+}
+
+.searchengine:hover {
+    fill: #5e86a9;
+}
+
+.admingui {
+    left: 339px;
+    height: 270px;
+    bottom: 449px;
+
+}
+
+.admingui:hover {
+    fill: #ac5949;
+}
+
+.apicontrollers {
+    left: 274px;
+    height: 270px;
+    bottom: 336px;
+}
+.apicontrollers:hover path{
+    fill: #b7a673;
+}
+.consumergui {
+    left: 283px;
+    height: 306px;
+    bottom: 181px;
+}
+.consumergui:hover path{
+    fill: #8772ba;
+}
+.consolecommands {
+    left: 358px;
+    height: 221px;
+    bottom: 59px;
+}
+.consolecommands:hover path{
+    fill: #7f9d72;
+}
+.dependencies {
+    left: 293px;
+    height: 398px;
+    bottom: 93px;
+}
+.dependencies:hover path{
+    fill: #275f90;
+    opacity: 0.5;
+}
+.cqhandlers {
+    left: 408px;
+    height: 265px;
+    bottom: 290px;
+}
+.cqhandlers:hover path{
+    fill: #8772ba;
+    opacity: 0.5;
+}
+.eventlisteners {
+    left: 621px;
+    height: 252px;
+    bottom: 305px;
+}
+.eventlisteners:hover path{
+    fill: #7f4261;
+    opacity: 1;
+}
+
+.applicationcore {
+    left: 489px;
+    height: 100px;
+    bottom: 127px;
+}
+.applicationcore:hover path{
+    fill: #980000;
+    opacity: 1;
+}
+.applicationlayer {
+    left: 490px;
+    height: 100px;
+    bottom: 385px;
+}
+.applicationlayer:hover path{
+    fill: #980000;
+    opacity: 1;
+}
+.emailframe {
+    left: 770px;
+    height: 140px;
+    bottom: 320px;
+}
+.emailframe:hover path{
+    fill: #e0b55f;
+    opacity: 0.7;
+}
+.smsframe {
+    left: 749px;
+    height: 140px;
+    bottom: 379px;
+}
+.smsframe:hover path{
+    fill: #e0b55f;
+    opacity: 0.7;
+}
+.ormframe {
+    left: 662px;
+    height: 140px;
+    bottom: 78px;
+}
+.ormframe:hover path{
+    fill: #e0b55f;
+    opacity: 0.7;
+}
+.mysqlframe {
+    left: 909px;
+    height: 140px;
+    bottom: 115px;
+}
+.mysqlframe:hover path{
+    fill: #e0b55f;
+    opacity: 0.7;
+}
+.sqliteframe {
+    left: 909px;
+    height: 140px;
+    bottom: 60px;
+}
+.sqliteframe:hover path{
+    fill: #e0b55f;
+    opacity: 0.7;
+}
+.searchframe {
+    left: 760px;
+    height: 140px;
+    bottom: 197px;
+}
+.searchframe:hover path{
+    fill: #e0b55f;
+    opacity: 0.7;
+}
+.queueframe {
+    left: 916px;
+    height: 140px;
+    bottom: 498px;
+}
+.queueframe:hover path{
+    fill: #e0b55f;
+    opacity: 0.7;
+}
+.messageframe {
+    left: 780px;
+    height: 168px;
+    bottom: 487px;
+}
+.messageframe:hover path{
+    fill: #e0b55f;
+    opacity: 0.7;
+}
+.cqbusframe {
+    left: 635px;
+    height: 128px;
+    bottom: 505px;
+}
+.cqbusframe:hover path{
+    fill: #e0b55f;
+    opacity: 0.7;
+}
+.eventbusframe {
+    left: 705px;
+    height: 132px;
+    bottom: 464px;
+}
+.eventbusframe:hover path{
+    fill: #e0b55f;
+    opacity: 0.7;
+}
+
+
+/* Отключаем события указателя для всех текстовых элементов */
+.text {
+    pointer-events: none;
+    /* Игнорирование событий мыши */
+}
